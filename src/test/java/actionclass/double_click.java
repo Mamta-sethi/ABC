@@ -14,7 +14,7 @@ public class double_click {
 		WebElement gmail = driver.findElement(By.xpath("//a[text()='Gmail']"));
 		//creat objet of actions
 		Actions a=new Actions(driver);
-		//doubleclick
+		//doubleclick123
 		a.moveToElement(gmail).doubleClick().perform();
 }
 }
